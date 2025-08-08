@@ -32,15 +32,18 @@ SDG 11: Sustainable Cities and Communities - Make cities and human settlements i
 •	Deployment: Render/Heroku with CI/CD through GitHub Actions.
 ---
 
-## 📂 Project Structure
-IBM_Sustainify
+
+
+📂 Project Directory Structure
+
 ├── app.py
 ├── agent.py
 ├── scheduler.py
 ├── users.csv
 ├── opportunities.csv
-├── templates/
-     └── index.html
+└── templates/
+    └── index.html
+
 
 ## 👥 Team Members  
 Devika I  
