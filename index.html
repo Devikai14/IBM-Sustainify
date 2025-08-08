@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sustainability Project</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Proactive Community Sustainability Project</h1>
+
+        {% if success %}
+        <p class="success">✅ Thank you for joining! Your details have been saved.</p>
+        {% endif %}
+
+        <form method="POST" action="/submit">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Areas of Interest:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="interests" value="Waste Management"> Waste Management</label>
+                <label><input type="checkbox" name="interests" value="Green Energy"> Green Energy</label>
+                <label><input type="checkbox" name="interests" value="Water Conservation"> Water Conservation</label>
+                <label><input type="checkbox" name="interests" value="Community Farming"> Community Farming</label>
+            </div>
+
+            <button type="submit">Join Now</button>
+        </form>
+    </div>
+</body>
+</html>
