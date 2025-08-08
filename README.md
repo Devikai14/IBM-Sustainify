@@ -26,9 +26,11 @@ SDG 11: Sustainable Cities and Communities - Make cities and human settlements i
 ## ⚙️ Tech Stack
 
 •	Frontend: HTML
-•	Backend: Flask (Python) with job scheduling (APScheduler) and email notifications using (yagmail/SMTP). 
-•	Database: SQLite/PostgreSQL — for user data and event data. 
+
+•	Backend: Flask (Python) with job scheduling (APScheduler) and email notifications using (yagmail/SMTP).
+
 •	Data Collection: BeautifulSoup/Scrapy and optional APIs (Google Places, Eventbrite). 
+
 •	Deployment: Render/Heroku with CI/CD through GitHub Actions.
 ---
 
