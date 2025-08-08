@@ -42,11 +42,11 @@ IBM_Sustainify
 ├── templates/
      └── index.html
 
+## 👥 Team Members  
+Devika I  
+Diya Ajith  
+Anjali S Nair  
+Athira C  
+Sidharth S  
+Gowri R R
 
-##Team members 
--Devika I
--Diya Ajith
--Anjali S Nair
--Athira C
--Sidharth S
--Gowri R R
