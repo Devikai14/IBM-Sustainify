@@ -33,8 +33,16 @@ SDG 11: Sustainable Cities and Communities - Make cities and human settlements i
 ---
 
 
+📂 Project Directory Structure
 
-<pre><code>```plaintext 📂 Project Directory Structure ├── app.py ├── agent.py ├── scheduler.py ├── users.csv ├── opportunities.csv └── templates/ └── index.html ```</code></pre>
+├── app.py
+├── agent.py
+├── scheduler.py
+├── users.csv
+├── opportunities.csv
+└── templates/
+    └── index.html
+
 
 ## 👥 Team Members  
 Devika I  
