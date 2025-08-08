@@ -1,54 +1,52 @@
-
-# 🌿 Sustainify: Proactive Community Sustainability Agent
+# 🌿 Sustainify: Proactive Community Sustainability Companion
 
 **Sustainify** is a web-based sustainability companion powered by agentic AI. It transforms passive sustainability platforms into proactive, personalized assistants. Aligned with **SDG 11: Sustainable Cities and Communities**, Sustainify empowers users to engage in local green activities, discover eco-conscious options, and take consistent sustainable actions — all with minimal effort.
 
 ---
 
-## 🎯 Goal
+## 🎯Sustainable Development Goal
 
-Make urban life more sustainable, inclusive, and community-driven by turning awareness into autonomous, intelligent action.
-
----
-
-## 💡 What Makes Sustainify Agentic?
-
-Unlike traditional platforms, **Sustainify** doesn’t wait for users to search. It proactively assists them using these agentic AI features:
-
-### 🧠 Core Agentic Features
-
-- **Proactive Opportunity Matching**  
-  Continuously scans local databases of:
-  - Clean-up drives
-  - Plastic-free stores
-  - Community gardening
-  - Farmers' markets
-  - Repair cafes  
-  ...and **notifies users** when events match their interests.
-
-- **Automated Scheduling & Registration**  
-  - With one click, users can join events or add them to Google Calendar.
-  - Agents use stored preferences and data to auto-complete sign-ups.
-
-- **Weekly Personalized Digests**  
-  - Every week, users receive “Your Sustainable Week Ahead” via email.
-  - Curated list of events, store openings, volunteer roles, and personalized eco-tips.
+SDG 11: Sustainable Cities and Communities - Make cities and human settlements inclusive, safe, resilient, and sustainable.
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 Core Features
 
-| Layer           | Technology           |
-|----------------|----------------------|
-| Frontend        | HTML, CSS, Bootstrap, JavaScript |
-| Backend         | Python (Flask or Django) |
-| Agent Logic     | Python Scripts (CRON-based or Celery tasks) |
-| Email Service   | SMTP / SendGrid / Mailgun |
-| Database        | SQLite / PostgreSQL / MongoDB |
-| Calendar API    | Google Calendar API |
-| Hosting         | Render / Vercel / Netlify / Heroku |
+- 🧠 **Proactive Opportunity Matching**  
+  Automatically scans local databases to notify users about relevant sustainability events and opportunities.
+
+- 📅 **Automated Scheduling**  
+  Allows one-click registration for local events and adds them to a user’s calendar.
+
+- 📬 **Weekly Personalized Digests**  
+  Sends custom summaries of eco-friendly events, tips, and news based on user preferences.
 
 ---
 
-## 📂 Suggested Folder Structure
+## ⚙️ Tech Stack
 
+•	Frontend: HTML
+•	Backend: Flask (Python) with job scheduling (APScheduler) and email notifications using (yagmail/SMTP). 
+•	Database: SQLite/PostgreSQL — for user data and event data. 
+•	Data Collection: BeautifulSoup/Scrapy and optional APIs (Google Places, Eventbrite). 
+•	Deployment: Render/Heroku with CI/CD through GitHub Actions.
+---
+
+## 📂 Project Structure
+IBM_Sustainify
+├── app.py
+├── agent.py
+├── scheduler.py
+├── users.csv
+├── opportunities.csv
+├── templates/
+     └── index.html
+
+
+##Team members 
+1.Devika I
+2.Diya Ajith
+3.Anjali S Nair
+4.Athira C
+5.Sidharth S
+6.Gowri R R
