@@ -44,9 +44,9 @@ IBM_Sustainify
 
 
 ##Team members 
-1.Devika I
-2.Diya Ajith
-3.Anjali S Nair
-4.Athira C
-5.Sidharth S
-6.Gowri R R
+-Devika I
+-Diya Ajith
+-Anjali S Nair
+-Athira C
+-Sidharth S
+-Gowri R R
